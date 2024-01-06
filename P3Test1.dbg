@@ -1,0 +1,122 @@
+Input file: P3Test1.pl460
+   1: (define (main)
+	LPAREN_T        (
+Entering Program function; current token is: LPAREN_T, lexeme: (
+Using Rule 1
+	DEFINE_T        define
+Entering Define function; current token is: DEFINE_T, lexeme: define
+Using Rule 4
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+   2: 	(display 5)
+	LPAREN_T        (
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+	DISPLAY_T       display
+Entering Action function; current token is: DISPLAY_T, lexeme: display
+Using Rule for 'display'
+	NUMLIT_T        5
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   3: 	(newline)
+	LPAREN_T        (
+Using Rule 9
+	NEWLINE_T       newline
+Entering Action function; current token is: NEWLINE_T, lexeme: newline
+Using Rule for 'newline'
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   4: 	(display -101)
+	LPAREN_T        (
+Using Rule 9
+	DISPLAY_T       display
+Entering Action function; current token is: DISPLAY_T, lexeme: display
+Using Rule for 'display'
+	NUMLIT_T        -101
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   5: 	(newline)
+	LPAREN_T        (
+Using Rule 9
+	NEWLINE_T       newline
+Entering Action function; current token is: NEWLINE_T, lexeme: newline
+Using Rule for 'newline'
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   6: 	(display 0)
+	LPAREN_T        (
+Using Rule 9
+	DISPLAY_T       display
+Entering Action function; current token is: DISPLAY_T, lexeme: display
+Using Rule for 'display'
+	NUMLIT_T        0
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   7: 	(newline)
+	LPAREN_T        (
+Using Rule 9
+	NEWLINE_T       newline
+Entering Action function; current token is: NEWLINE_T, lexeme: newline
+Using Rule for 'newline'
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   8: 	(display 3.14159)
+	LPAREN_T        (
+Using Rule 9
+	DISPLAY_T       display
+Entering Action function; current token is: DISPLAY_T, lexeme: display
+Using Rule for 'display'
+	NUMLIT_T        3.14159
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+   9: 	(newline)
+	LPAREN_T        (
+Using Rule 9
+	NEWLINE_T       newline
+Entering Action function; current token is: NEWLINE_T, lexeme: newline
+Using Rule for 'newline'
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+  10: 	(display -3.5)
+	LPAREN_T        (
+Using Rule 9
+	DISPLAY_T       display
+Entering Action function; current token is: DISPLAY_T, lexeme: display
+Using Rule for 'display'
+	NUMLIT_T        -3.5
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+  11: 	(newline)
+	LPAREN_T        (
+Using Rule 9
+	NEWLINE_T       newline
+Entering Action function; current token is: NEWLINE_T, lexeme: newline
+Using Rule for 'newline'
+	RPAREN_T        )
+Exiting Action function; current token is: RPAREN_T
+  12: )
+	RPAREN_T        )
+Exiting Stmt function; current token is: RPAREN_T
+  13: 
+  14: (main)
+	LPAREN_T        (
+Entering Stmt function; current token is: LPAREN_T, lexeme: (
+Using Rule 9
+	IDENT_T         main
+Entering Action function; current token is: IDENT_T, lexeme: main
+Using Rule 54
+	RPAREN_T        )
+Entering Stmt_List function; current token is: RPAREN_T, lexeme: )
+Using Rule 6
+Exiting Stmt_List function; current token is: RPAREN_T
+Exiting Action function; current token is: RPAREN_T
+	EOF_T           
+Exiting Stmt function; current token is: EOF_T
+Exiting Define function; current token is: EOF_T
+Error at 14,7: '(' expected 
+Entering More_Defines function; current token is: EOF_T, lexeme: 
+Error at 14,7: '' unexpected 
+Exiting More_Defines function; current token is: EOF_T
+Exiting Program function; current token is: EOF_T
+2 errors found in input file

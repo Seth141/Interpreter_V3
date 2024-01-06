@@ -1,0 +1,18 @@
+Input file: P3Test1.pl460
+   1: (define (main)
+   2: 	(display 5)
+   3: 	(newline)
+   4: 	(display -101)
+   5: 	(newline)
+   6: 	(display 0)
+   7: 	(newline)
+   8: 	(display 3.14159)
+   9: 	(newline)
+  10: 	(display -3.5)
+  11: 	(newline)
+  12: )
+  13: 
+  14: (main)
+Error at 14,7: '(' expected 
+Error at 14,7: '' unexpected 
+2 errors found in input file
