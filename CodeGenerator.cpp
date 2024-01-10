@@ -32,7 +32,7 @@ CodeGenerator::CodeGenerator (string fileNamePrefix, LexicalAnalyzer * L)
 
 /********************************************************************************/
 /* This function will be called when the CodeGenerator object is deleted. It    */
-/* close the generated .cpp file.						                        */
+/* closes the generated .cpp file.						                        */
 /********************************************************************************/
 CodeGenerator::~CodeGenerator ()
 {
