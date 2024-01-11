@@ -1,6 +1,6 @@
 # Interpreter_V3
 ## A Scheme to C++ interpreter.
---- 
+
 **This project was built in 3 major iterations:**
 
 ### Iteration 1: 
@@ -42,3 +42,5 @@
 
 Future versions of this project will read in scheme code 
 and output valid code in multiple languages, not just C++. 
+
+---
