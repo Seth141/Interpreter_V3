@@ -42,5 +42,7 @@
 
 Future versions of this project will read in scheme code 
 and output valid code in multiple languages, not just C++. 
+This first complete interpreter version was built for 
+CS460 at SSU with professor Watts.
 
 ---
