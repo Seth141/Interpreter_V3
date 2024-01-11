@@ -1,9 +1,9 @@
 # Interpreter_V3
-A Scheme to C++ interpreter.
+## A Scheme to C++ interpreter.
+--- 
+**This project was built in 3 major iterations:**
 
-This project was built in 3 major iterations: 
-
-Iteration 1: 
+### Iteration 1: 
     For this iteration, the goal was to design and 
     construct a lexical analyzer for the language 
     scheme. This included recognizing lexemes 
@@ -18,7 +18,7 @@ Iteration 1:
     the file and their corresponding lexemes.
 
 
-Iteration 2: 
+### Iteration 2: 
     In this iteration, I wrote a recursive decent 
     parser in order to perform syntactical analysis 
     on the scheme input code. The output from this 
@@ -30,7 +30,7 @@ Iteration 2:
     resulting file.
 
 
-Iteration 3: 
+### Iteration 3: 
     For this final iteration of the interpreter, 
     I wrote the code generator classes that take 
     in the scheme input code and translate each line 
